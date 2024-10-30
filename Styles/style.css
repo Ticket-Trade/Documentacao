@@ -1,0 +1,32 @@
+/* Cores usadas */
+:root {
+    --branco-base: #ffffff;
+    --preto-base: #000000;
+    --azul-base: #0000ff;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Cores no light mode */
+body {
+    background-color: var(--branco-base);
+    color: var(--preto-base);
+} 
+
+img {
+    height: 216px;
+    width: 216px;
+}
+
+/* Aqui vão as cores para o dark mode */
+.dark-mode {
+    background-color: var(--preto-base);
+    color: var(--branco-base);
+}
+
+.col {
+    border: 1px solid black;
+}
